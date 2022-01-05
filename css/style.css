@@ -9,4 +9,145 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  font-family: 'Roboto', sans-serif;
+}
+#site-hero{
+  height: 800px;
+  background-image: url('../images/back-img.jpg');
+  padding: 51px 0px;
+  color: #fff;
+}
+.container{
+  width: 1160px;
+}
+ul{
+  list-style-type: none;
+}
+.header-logo{
+  flex-grow: 1;
+}
+.list-item{
+  margin-right: 50px;
+}
+.list-link{
+  text-decoration: none;
+  font-size: 13px;
+  line-height: 30px;
+  color: #fff;
+}
+.header-inner{
+  margin-bottom: 150px;
+}
+.header-btn{
+  text-decoration: none;
+  display: inline-block;
+  padding: 12px 16px;
+  font-size: 13px;
+  line-height: 16px;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 4px;
+}
+.hero-inner{
+  width: 420px;
+}
+.hero-title{
+  font-size: 41px;
+  line-height: 50px;
+  margin-bottom: 35px;
+}
+.hero-text{
+  font-size: 11px;
+  line-height: 30px;
+  margin-bottom: 35px;
+}
+.btn{
+  display: inline-block;
+  text-decoration: none;
+  background-color: #0A8bfe;
+  border-radius: 4px;
+  font-size: 15px;
+  line-height: 30px;
+  color: #fff;
+}
+.hero-btn{
+  padding: 15px 37px;
+}
+.partner-inner{
+  height: 350px;
+  background-color: #fff;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.05);
+  border-radius: 0px;
+  padding: 96px 53px 84px 40px;
+  position: relative;
+  top: -70px;
+}
+.partner-title{
+  font-size: 26px;
+  line-height: 38px;
+}
+.text{
+  line-height: 30px;
+  color: #737373;
+}
+.web-partner{
+  width: 335px;
+  border-right: 1px solid #E8E8E8;
+  padding-right: 50px;
+}
+.component{
+  width: 165px;
+}
+.component .text:first-child{
+  margin-bottom: 50px;
+}
+.location-desc{
+  text-align: center;
+  margin-bottom: 85px;
+}
+.location-title{
+  font-size: 41px;
+  line-height: 50px;
+  margin-bottom: 35px;
+  font-weight: normal;
+}
+#location{
+  padding-block: 100px 260px;
+}
+.location-list{
+  margin-bottom: 50px;
+}
+.location-link{
+  text-decoration: none;
+  font-size: 24px;
+  line-height: 38px;
+  color: #000;
+}
+.location-item:not(:last-child){
+  margin-right: 100px;
+}
+.location-item:nth-child(1) .location-link{
+  color: #0A8BFE;
+}
+.components-list{
+  margin-bottom: 50px;
+}
+.components-div{
+  border: 1px solid #E8E8E8;
+  box-sizing: border-box;
+  border-radius: 0px;
+  padding: 38px 60px 40px 40px;
+  height: 220px;
+  width: 560px;
+}
+.components-heading{
+  font-size: 20px;
+  line-height: 28px;
+  margin-bottom: 23px;
+}
+.components-item{
+  padding: 20px;
+}
+.contact-btn{
+  padding: 15px 50px;
 }
